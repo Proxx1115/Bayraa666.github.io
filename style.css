@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #5f4c4c;
+
+}
+.container{
+    margin: auto;
+    max-width: 1500px;
+    overflow: auto;
+    padding: 0 20px;
+}
+.conta{
+    margin: auto;
+    max-width: 1000px;
+    overflow: auto;
+    padding: 0 20px;
+}
+.contai{
+    margin: auto;
+    max-width: 600px;
+    overflow: auto;
+    padding: 0 20px;
+}
+#navbar{
+    background: #2f2626;
+    color: 	#c5aa6a;
+    overflow: auto;
+}
+#navbar a{
+    color: #c5aa6a;
+}
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+ #navbar ul li{
+    float: left;
+}
+#navbar ul li a{
+    display: block;
+    padding:20px;
+    text-align: center;
+    text-decoration: none;
+}
+#navbar ul li a:hover,
+#navbar ul li a.current{
+    background:#202020;
+    color:#f7c08a
+} 
+#zaruud .zvvn{
+    max-width: 50%;
+    float: left;
+    background: url(.//1.png) no-repeat center/cover ;
+    overflow: hidden;
+}
+.zvvn h1{
+    padding: 250px;
+}
+#zaruud .baruun{
+    max-width: 50%;
+    float: right;
+    background: url(.//2.png) no-repeat center/cover;
+    overflow: hidden;
+}
+#zaruud{
+    margin-bottom: 100px;
+}
+#zaruud h1{
+    color:rgb(0, 0, 0);
+}
+.baruun h1{
+    padding: 250px;
+}
+#artcl{
+    text-align: center;  
+}
+#artcl h1{
+    margin-top: 100px;
+    color: #2f2626;
+    font-size: 60px;
+}
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    color: #c5aa6a;
+    background-color: #2f2626;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+#main-footer{
+    text-align: center;
+    background: #1d1919;
+    color: #fff;
+    padding: 25px;
+}
+#medee h1{
+    margin-top: 60px;
+}
+#medee p{
+    font-size: 10px;
+    
+}
+.zc h1, p{
+    margin-left: 20px;
+}
+.zc img{
+    padding-top: 15px;
+}
+.zc{
+    max-width: 70%;
+    float: left;
+    padding-right: 25px;
+}
+
+.zb p{
+    display: inline;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px 20px;
+    background: rgb(100, 55, 55);
+}
+.zb h6{
+    padding-bottom: 10px;
+}
+.zb h4{
+    margin-top: 10px;
+}
+.brd {
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+ }
+ .desc p{
+     font-size: 20px;
+     margin-bottom: 260px;
+ }
+ .btnalign{
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
+#contact{
+    margin-top: 25px;
+}
+#contact .form{
+    margin-bottom: 20px;
+}
+.form label{
+    display: block;
+    margin-bottom: 6px;
+    margin-left: 70px;
+    font-size: 18px;
+}
+#contact p{
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+.form textarea{
+    height: 200px;
+}
+.form input{
+    height: 35px;
+}
+#contact input, #contact textarea{
+    display: block;
+    margin: auto;
+    width: 90%;
+    border-radius: 25px;
+    border-color: none;
+}
+#contact input:focus,
+#contact textarea:focus{
+    outline: none;
+    border-color:#009879 ;
+}
+#contact .pre input{
+    margin-left: 25px;
+}
